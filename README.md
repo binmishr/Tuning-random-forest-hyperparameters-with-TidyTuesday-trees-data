@@ -11,8 +11,6 @@ Get the data here
 
 sf_trees <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-01-28/sf_trees.csv')
 
-# Or read in with tidytuesdayR package (https://github.com/thebioengineer/tidytuesdayR)
-
 # Load via Library("tidytuesdayR")
 
 tuesdata <- tidytuesdayR::tt_load('2020-01-28') 
